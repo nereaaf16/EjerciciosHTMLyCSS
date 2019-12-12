@@ -1,0 +1,98 @@
+body {
+background-color:cornsilk;
+padding-left:24em;
+text-align:justify;
+
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    background-color: lightskyblue;
+}
+h2 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+#indice {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    width: 9em;
+}
+ul.deportes {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size: 1.4em;
+    list-style-type:none;
+    background: lightskyblue;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2.5em;
+    left: 0em;
+    width: 16em;
+    text-transform:capitalize;
+}
+
+li {
+    border-style: double;
+    border-width: 0.5em;
+    border-color: cornsilk;
+    padding-top: 0.6em;
+    padding-right: em;
+    padding-left: 1em;
+    padding-bottom: 0.6em;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    font-style: italic;
+    letter-spacing: 2px;
+    background-color: white;
+    text-decoration: none;
+}
+
+figcaption.descripcionImg{
+    text-align: center;
+    color:white;
+    border: 0.3em solid white;
+    padding: 1em;
+    background-color: lightskyblue;
+}
+
+p.ind{
+    border-left-color: lightskyblue;
+    border-left-width: 0.5em;
+    border-left-style: double;
+    padding-left: 0.5em;
+    border-right-color: lightskyblue;
+    border-right-width: 0.5em;
+    border-right-style: double;
+    margin-right: 64em;
+    text-align:center;
+}
+
+figure.fig{
+    text-align: center;
+}
+
+img.img{
+    border-color: lightskyblue;
+    border-width: 0.5em;
+    border-style: inset;
+}

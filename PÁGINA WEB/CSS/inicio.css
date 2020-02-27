@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Michroma-Regular";
+    src: url(/FUENTES/Michroma/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Architects_Daugter";
+    src: url(/FUENTES/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+/*MENU*/
+
+.menu {
+    position: static;
+    display: flex;
+    background: rgb(160, 204, 221);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 21px;
+    width: 235px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+.menu a:hover {
+    background: rgb(189,219,231);
+}
+
+.inicio {
+    background: rgb(189,219,231);
+}
+
+.nombre {
+    font-size: 17px;
+    font-weight: bold;
+    height: 25px;
+    width: 180px;
+    padding: 15px;
+    padding-left: 45px;
+}
+
+/*TRANSICIÓN PRINCIPIO*/
+
+.intro {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -145px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border: 10px inset white;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-family: "Michroma-Regular";
+}
+
+.intro::after {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    display: block;
+    filter: blur(10px);
+    transition: all 1000ms;
+}
+
+.intro:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.cabecera:hover .intro {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+/*MAIN*/
+
+#banner {
+    position: relative;
+    filter: blur(10px);
+    transition: all 1000ms;
+}
+
+#banner:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    transition: all 1000ms;
+}
+
+#banner img {
+    width: 100%;
+    height: 400px;
+}
+
+#info{
+    background: rgb(160, 204, 221);
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.descrip {
+    margin: 100px;
+    font-family: "Architects_Daugter";
+    font-size: 24px;
+}
+
+#ubicacion {
+    background: rgb(215, 242, 255);
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+#ubicacion h3 {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#ubicacion .contenedor iframe {
+    width: 45%;
+}
+
+/*FOOTER*/
+
+.footer {
+    background: rgb(160, 204, 221);
+    color: white;
+    padding: 15px;
+}
+
+.footer p {
+    margin: 0;
+}

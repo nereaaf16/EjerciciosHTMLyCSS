@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: "Michroma-Regular";
+    src: url(/FUENTES/Michroma/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Orbitron";
+    src: url(/FUENTES/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+/*MENU*/
+
+.menu {
+    position: static;
+    display: flex;
+    background: rgb(160, 204, 221);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 21px;
+    width: 235px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+.menu a:hover {
+    background: rgb(189,219,231);
+}
+
+.grupos {
+    background: rgb(189,219,231);
+}
+
+.nombre {
+    font-size: 17px;
+    font-weight: bold;
+    height: 25px;
+    width: 180px;
+    padding: 15px;
+    padding-left: 45px;
+}
+
+/*Grupos*/
+
+#grupos {
+    padding: 50px;
+    background: rgb(215, 242, 255);
+}
+
+#grupos h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Michroma-Regular";
+}
+
+#grupos h3 {
+   text-align: center;
+   font-family: "Orbitron";
+   font-size: 20px;
+}
+
+#grupos h4 {
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: 22px;
+ }
+
+#grupos .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#grupos article {
+    margin: 40px;
+}
+
+#grupos img {
+    width: 100%;
+    max-width: 280px;
+    height: 180px;
+    border: 4px inset white;
+}
+
+/*FOOTER*/
+
+.footer {
+    background: rgb(160, 204, 221);
+    color: white;
+    padding: 15px;
+}
+
+.footer p {
+    margin: 0;
+}

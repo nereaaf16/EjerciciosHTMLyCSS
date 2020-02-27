@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Michroma-Regular";
+    src: url(/FUENTES/Michroma/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Architects_Daughter";
+    src: url(/FUENTES/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+
+/*MENU*/
+
+.menu {
+    position: static;
+    display: flex;
+    background: rgb(160, 204, 221);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 21px;
+    width: 235px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+.menu a:hover {
+    background: rgb(189,219,231);
+}
+
+.estilos {
+    background: rgb(189,219,231);
+}
+
+.nombre {
+    font-size: 17px;
+    font-weight: bold;
+    height: 25px;
+    width: 180px;
+    padding: 15px;
+    padding-left: 45px;
+}
+
+/*ESTILOS DE BAILE*/
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Michroma-Regular";
+    margin-left: 60px;
+}
+
+ul {
+    position: static;
+}
+
+#estilos a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Architects_Daughter";
+}
+
+#estilos li {
+    background: rgb(160, 204, 221);
+    padding: 15px;
+    border: 2px inset white;
+    width: 550px;
+}
+
+#estilos li:hover {
+    background: rgb(189,219,231);
+}
+
+.imagen {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 800px;
+    border: 5px inset white;
+}
+
+#main {
+    display: flex;
+    background: rgb(215, 242, 255);
+}
+
+/*FOOTER*/
+
+.footer {
+    background: rgb(160, 204, 221);
+    color: white;
+    padding: 15px;
+}
+
+.footer p {
+    margin: 0;
+}

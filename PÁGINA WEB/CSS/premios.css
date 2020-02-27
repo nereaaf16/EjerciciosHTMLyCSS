@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Michroma-Regular";
+    src: url(/FUENTES/Michroma/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: "TradeWinds-Regular";
+    src: url(/FUENTES/Trade_Winds/TradeWinds-Regular.ttf);
+}
+
+/*MENU*/
+
+.menu {
+    position: static;
+    display: flex;
+    background: rgb(160, 204, 221);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 21px;
+    width: 235px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #fff;
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+.premios {
+    background: rgba(255, 255, 255, .3);
+}
+
+.nombre {
+    font-size: 17px;
+    font-weight: bold;
+    height: 25px;
+    width: 180px;
+    padding: 15px;
+    padding-left: 45px;
+}
+
+/*MAIN*/
+
+h1 {
+    font-family: "Michroma-Regular";
+    text-align: center;
+}
+
+#premios1 {
+    background: rgb(215, 242, 255);
+    text-align: center;
+    padding: 52px;
+}
+
+#premios1 img {
+    width: 390px;
+    height: 290px;
+    border: 4px inset white;
+}
+
+#premios2 {
+    background: rgb(160, 204, 221);
+    text-align: center;
+    padding: 51px;
+}
+
+#premios2 img {
+    width: 390px;
+    height: 290px;
+    border: 4px inset white;
+}
+
+#premios3 {
+    background: rgb(215, 242, 255);
+    text-align: center;
+    padding: 51px;
+}
+
+#premios3 img {
+    width: 390px;
+    height: 290px;
+    border: 4px inset white;
+}
+
+#premios {
+    display: flex;
+    justify-content: center;
+}
+
+#premios p {
+    font-family: "TradeWinds-Regular";
+    font-size: 20px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background: rgb(160, 204, 221);
+    color: white;
+    padding: 15px;
+}
+
+.footer p {
+    margin: 0;
+}
